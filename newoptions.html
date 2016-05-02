@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Things To Do - Options </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/options.css" />
+    <link rel="stylesheet" type="text/css" href="css/ui-lightness/jquery-ui-1.7.2.custom.css" />
+    <script type="text/javascript" src="js/jquery.js"> </script>
+    <script type="text/javascript" src="js/jquery.textarea-expander.js"> </script>
+    <script type="text/javascript" src="js/jquery-ui-1.7.2.custom.min.js"> </script>
+    <script type="text/javascript" src="js/dragsort.js"> </script>
+    <script type="text/javascript" src="js/todo.js"> </script>
+    <script src="js/jscolor/jscolor.js"></script>
+    <script src="js/options.js"></script>
+  </head>
+  <body>
+    <div id="todo">
+      <h1>Things to do</h1>
+      <ul id="list">
+        <li id="new-item">
+        <span class="container"><span class="fake-drag">&#187;</span><textarea class="edit" id="next">...</textarea></span>
+        </li>
+      </ul>
+    </div>
+    <div id="color">
+      <select id="sel">
+        <option value="bg" selected>Background</option>
+        <option value="fg">Foreground</option>
+        <option value="arr">Arrow</option>
+        <option value="arrh">Arrow (Hover)</option>
+        <option value="box">Input Background</option>
+        <option value="del">Delete</option>
+        <option value="delh">Delete (Hover)</option>
+      </select>
+      <br />
+      <input id="color-changer" type="text" class="color" />
+      <hr />
+      <div class="title">Item font size:</div>
+      <div class="slider" id="itemfont-slider"></div>
+      <hr />
+      <div class="title">Title font size:</div>
+      <div class="slider" id="titlefont-slider"></div>
+      <hr />
+      <div class="title">Page width:</div>
+      <div class="slider" id="pagewidth-slider"></div>
+      <hr />
+      <div class="title">Item width:</div>
+      <div class="slider" id="itemwidth-slider"></div>
+    </div>
+  </body>
+</html>

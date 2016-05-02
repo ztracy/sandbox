@@ -1,0 +1,16 @@
+{
+  "name": "Things To Do",
+  "description": "A simple extension that replaces the new tab page with a to do list. Add it and watch your productivity soar!",
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "version": "0.1",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "options_page": "newoptions.html",
+  "update_url": "https://github.com/ztracy/simple-todo"
+}
